@@ -1,0 +1,22 @@
+{
+  "name": "socketio-hello-world",
+  "version": "1.0.0",
+  "description": "Simple socketio server/client example",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john9francis/socketio-hello-world.git"
+  },
+  "author": "John Francis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john9francis/socketio-hello-world/issues"
+  },
+  "homepage": "https://github.com/john9francis/socketio-hello-world#readme",
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}
