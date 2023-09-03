@@ -1,13 +1,12 @@
-const Express = require("express")()
-const Http = require("http").Server(Express);
-const Socketio = require("socket.io")(Http);
+const express = require('express');
+const app = express();
+const http = require('http');
+const server = http.createServer(app);
 
-var thing = 1 // a thing for the clients to change
+app.get('/', (req, res) => {
+  res.send('<h1>Hello world</h1>');
+});
 
-Socketio.on("connection", socket => {
-  socket.emit("thing", thing)
-})
-
-Http.listen(3000, () => {
-  console.log("Listening at :3000...")
-})
+server.listen(3000, () => {
+  console.log('listening on *:3000');
+});
