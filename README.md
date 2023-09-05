@@ -1,6 +1,14 @@
 # socketio-hello-world
 Simple socketio server and client example
 
+# How to run:
+first, navigate to the server dir and run:
+```
+node index.js
+```
+
+Then, access the website by going to `localhost:<the port>`. Now, every time a user accesses the page, it will tell the server and the server will print, "a user connected."
+
 
 # Useful websites
 - [Socketio documentation](https://socket.io/get-started/chat)

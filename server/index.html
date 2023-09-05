@@ -4,6 +4,8 @@
   <h1>Hello World</h1>
   <script src="/socket.io/socket.io.js"></script>
   <script>
-    var socket = io();
+    // this needs to be here in the html... 
+    //because of type sniffing
+    var socket = io()
   </script>
 </body>
